@@ -1,0 +1,29 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Load Dim Customer",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "dimension_customer csv": {
+      "queryId": "f662cda0-fadb-44e4-938b-a30758bae433",
+      "queryName": "dimension_customer csv",
+      "loadEnabled": false
+    },
+    "dimension_customer csv_DataDestination": {
+      "queryId": "c07aa28c-2876-4d0b-81ec-eeb1b878d0fe",
+      "queryName": "dimension_customer csv_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"6cecf25d-324f-4100-a4fa-1e2d9aa8fe0b\",\"DatasourceId\":\"e9e889a5-11cc-4696-a268-14e88a84c5cd\"}"
+    }
+  ]
+}
