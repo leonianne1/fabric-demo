@@ -1,0 +1,74 @@
+[
+  {
+    "name": "credit_scores",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/credit_scores",
+        "itemId": "427af051-887e-449a-8074-82de12f0cbd7",
+        "workspaceId": "ad055432-36da-468c-b3ee-11ccc1ebf753"
+      }
+    }
+  },
+  {
+    "name": "collaterals",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/collaterals",
+        "itemId": "427af051-887e-449a-8074-82de12f0cbd7",
+        "workspaceId": "ad055432-36da-468c-b3ee-11ccc1ebf753"
+      }
+    }
+  },
+  {
+    "name": "borrowers_1",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/borrowers",
+        "itemId": "12e65740-aa21-4910-99cc-db76280a30c1",
+        "workspaceId": "39666ea9-91d3-404a-be22-7b02087fd7bb"
+      }
+    }
+  },
+  {
+    "name": "borrowers",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/borrowers",
+        "itemId": "427af051-887e-449a-8074-82de12f0cbd7",
+        "workspaceId": "ad055432-36da-468c-b3ee-11ccc1ebf753"
+      }
+    }
+  },
+  {
+    "name": "bank",
+    "path": "/Tables",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "9994f5d5-44c4-44bd-9798-37d209edca57",
+        "location": "https://datalakefce.dfs.core.windows.net",
+        "subpath": "/input/bank"
+      }
+    }
+  },
+  {
+    "name": "dim_customer",
+    "path": "/Files",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "9994f5d5-44c4-44bd-9798-37d209edca57",
+        "location": "https://datalakefce.dfs.core.windows.net",
+        "subpath": "/input/dim_customer"
+      }
+    }
+  }
+]
